@@ -28,7 +28,7 @@
 
     const createSortable = () => {
 
-        new FullCalendar.Draggable(tasks, {
+        new FullCalendar.ThirdPartyDraggable(tasks, {
             itemSelector: '.list-group-item',
             eventData: function(eventEl) {
                 return {
@@ -58,7 +58,7 @@
 
 
 <div>
-	<h1>Draggable</h1>
+	<h1>ThirdPartyDraggable</h1>
 
     <div class="mx-6">
         <div class="row mt-5">
@@ -97,4 +97,3 @@
         </div>
     </div>
 </div>
-
