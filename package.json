@@ -2,7 +2,7 @@
   "name": "fullcalendar-sortablejs",
   "version": "0.0.1",
   "scripts": {
-    "start":"sirv public -p 3400",
+    "start": "sirv public -p 3400",
     "dev": "svelte-kit dev --port 3400",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
@@ -32,6 +32,7 @@
   "type": "module",
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
+    "@fullcalendar/interaction": "^5.10.1",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
     "sortablejs": "^1.14.0"
